@@ -33,5 +33,6 @@ Também é possível adicionar um script customizado para atividades repetidas o
   "dev": "babel ./main.js -o ./bundle.js -w"
 }
 ```
+> O -w significa que o babel deve sempre escutar as modificações desse arquivo
 
 Como é de conhecimento, a const não permite que seus valores sejam alterados. Contudo, podemos aplicar um conceito chamado Mutação, onde valores de objetos e arrays podem ser alterados desde que mantenham a mesma estrutura/assinatura do original.
